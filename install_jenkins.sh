@@ -15,7 +15,7 @@ sudo systemctl enable httpd
 
 sudo systemctl is-enabled httpd
 
-echo "Install Java JDK 8"
+echo "Install Java JDK 11"
 sudo yum remove -y java
 sudo amazon-linux-extras install java-openjdk11
 
